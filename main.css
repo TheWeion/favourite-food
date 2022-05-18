@@ -1,18 +1,24 @@
-/* MEDIA QUERIES */
-@media only screen and (orientation:portrait) {
-    
+body{
+    background-color:lavender
 }
 
-@media only screen and (max-width:766px) {
+/* Centre Carousel in viewport. */
+#carouselSlidesOnly { margin: 0 auto; }
+
+/* MEDIA QUERIES */
+@media only screen and (max-width:1024px) {
+    body {
+        background-color:azure;
+    }
+    /* Increase bottom padding for card columns on mobile */
     .col {
         padding-bottom: 32px;
     }
+
+    /* Change to block buttons for mobile/tablet users. */
+    button {
+        display:block;
+        width: 100%;
+    }
 }
 
-@media (hover:none) {
-
-}
-
-@media (pointer:coarse) {
-
-}
