@@ -1,0 +1,18 @@
+/* MEDIA QUERIES */
+@media only screen and (orientation:portrait) {
+    
+}
+
+@media only screen and (max-width:766px) {
+    .col {
+        padding-bottom: 32px;
+    }
+}
+
+@media (hover:none) {
+
+}
+
+@media (pointer:coarse) {
+
+}
